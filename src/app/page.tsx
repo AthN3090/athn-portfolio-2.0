@@ -149,7 +149,7 @@ export default function Page() {
                     dates={project.dates}
                     tags={project.technologies}
                     image={project.image}
-                    video={project.video}
+                    // video={project.video}
                     links={project.links}
                   />
                 </BlurFade>
@@ -211,7 +211,7 @@ export default function Page() {
                   Get in Touch
                 </h2>
                 <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I'm currently exploring opportunites in <br/>
+                I am currently exploring opportunites in <br/>
                 <span className="text-black dark:text-white" >Full-stack Development.</span><br/>
   Feel free to reach out incase you have an opportunity for me, or just want to say hi. 
   <span className="links-container2">

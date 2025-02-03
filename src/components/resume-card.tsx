@@ -86,7 +86,7 @@ export const ResumeCard = ({
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
           <ul className="mt-2 text-xs sm:text-sm list-disc">
-            {description?.map( item => <li >{item}</li>)}
+            {description?.map((item, index) => <li key={index}>{item}</li>)}
           </ul>
           {/* {description && (
             <motion.div

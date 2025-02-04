@@ -72,12 +72,12 @@ export const ResumeCard = ({
                     ))}
                   </span>
                 )}
-                {/* <ChevronRightIcon
+                <ChevronRightIcon
                   className={cn(
                     "size-4 translate-x-0 transform opacity-0 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:opacity-100",
                     isExpanded ? "rotate-90" : "rotate-0"
                   )}
-                /> */}
+                />
               </h3>
               <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
                 {period}
@@ -88,7 +88,7 @@ export const ResumeCard = ({
           <ul className="mt-2 text-xs sm:text-sm list-disc">
             {description?.map((item, index) => <li key={index}>{item}</li>)}
           </ul>
-          {/* {description && (
+          {description && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{
@@ -104,7 +104,7 @@ export const ResumeCard = ({
             >
               {description}
             </motion.div>
-          )} */}
+          )}
         </div>
       </Card>
     </div>

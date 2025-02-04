@@ -6,6 +6,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -33,6 +34,9 @@ export default function Page() {
                   delay={BLUR_FADE_DELAY}
                   text={DATA.description}
                 />
+                <a href={`/Aman_Dev_Chowdhary_Resume.pdf`} target="_blank">
+            
+          </a>
               </div>
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <Avatar className="size-28 border">
@@ -211,7 +215,7 @@ export default function Page() {
                   Get in Touch
                 </h2>
                 <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I am currently exploring opportunites in <br/>
+                   Currently exploring opportunites in <br/>
                 <span className="text-black dark:text-white" >Full-stack Development.</span><br/>
   Feel free to reach out incase you have an opportunity for me, or just want to say hi. 
   <span className="links-container2">

@@ -75,11 +75,6 @@ export default function Navbar() {
               </Tooltip>
             </DockIcon>
           ))} */}
-          <a href={`/Aman_Dev_Chowdhary_Resume.pdf`} target="_blank">
-            <Button size="sm" className="text-xs">
-              Resume
-            </Button>
-          </a>
           <Separator orientation="vertical" className="h-full py-2" />
           <div className="flex gap-1">
             <Tooltip>
@@ -97,14 +92,15 @@ export default function Navbar() {
 
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
-                <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                <DropdownMenuSeparator />
                 <DropdownMenuItem asChild className="cursor-pointer">
                   <Link href="/#about">About</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer"><Link href="/#skills">Skills</Link></DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer"><Link href="/#work">work</Link></DropdownMenuItem>
-                <DropdownMenuItem asChild className="cursor-pointer"><Link href="/#projects">projects</Link></DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer"><Button className="text-xs h-8">
+              Download Resume
+            </Button></DropdownMenuItem>
+                
               </DropdownMenuContent>
             </DropdownMenu>
 

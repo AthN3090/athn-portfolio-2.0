@@ -34,9 +34,6 @@ export default function Page() {
                   delay={BLUR_FADE_DELAY}
                   text={DATA.description}
                 />
-                <a href={`/Aman_Dev_Chowdhary_Resume.pdf`} target="_blank">
-            
-          </a>
               </div>
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <Avatar className="size-28 border">

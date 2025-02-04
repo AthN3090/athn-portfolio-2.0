@@ -13,7 +13,7 @@ export const DATA = {
     `I am Aman Dev Chowdary. I am a computer science undergraduate from IIIT Surat, working full-time as a Developer at TCS. 
       I like exploring ideas and building applications to solve real-life problems with code. I am currently looking for oportunites to work with awesome people and grow as a software engineer.
       When I am not coding, I play badminton and sometimes I play video games with my friends.`,
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.jpeg",
   skills: [
     "HTML/CSS",
     "React",

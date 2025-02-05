@@ -97,9 +97,13 @@ export default function Navbar() {
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer"><Link href="/#work">Work</Link></DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer"><Link href="/#work">Projects</Link></DropdownMenuItem>
-                <DropdownMenuItem asChild className="cursor-pointer mt-1"><Button className="text-xs h-7">
-              Download Resume
-            </Button></DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <a href="/Aman_Dev_Chowdhary_Resume.pdf" target="_blank">
+                    <Button className="text-sm">
+                      Download Resume
+                    </Button>
+                  </a>
+            </DropdownMenuItem>
                 
               </DropdownMenuContent>
             </DropdownMenu>

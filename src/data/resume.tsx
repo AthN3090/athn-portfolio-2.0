@@ -4,9 +4,9 @@ import { HomeIcon, NotebookIcon, UsbIcon} from "lucide-react";
 export const DATA = {
   name: "Aman Dev Chowdhary",
   initials: "ADC",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://amandevchowdhary.in",
+  location: "Bangalore, India",
+  locationLink: "",
   description:
     "I bring ideas to life by building interesting things for the web.",
   summary:
@@ -33,33 +33,33 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "amandevcareer@gmail.com",
+    tel: "",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/AthN3090",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/amandevchowdhary/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -258,12 +258,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://minesweeper-ts-navy.vercel.app/",
+          href: "https://neurodactyle-vkgi.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/AthN3090/minesweeper-ts",
+          href: "https://github.com/AthN3090/Neurodactyle-landing",
           icon: <Icons.github className="size-3" />,
         },
       ],

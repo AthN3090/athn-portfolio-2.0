@@ -220,10 +220,10 @@ export default function Page() {
                 <Link href="https://github.com/AthN3090"  title="Github" className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                     {/* <img src={""} height="22px" alt="github"></img> */} Github
                 </Link>
-                <Link href="https://www.linkedin.com/in/athn3090/" className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm"  title="Linkedin">
+                <Link href="https://www.linkedin.com/in/amandevchowdhary/" className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm"  title="Linkedin">
                     {/* <img src={""} height="22px" alt="linkedin"></img> */} LinkedIn
                 </Link>
-                <Link href="mailto:amandevrishi12@gmail.com" className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm"  title="Email">
+                <Link href="mailto:amandevcareer@gmail.com" className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm"  title="Email">
                     {/* <img src={""}   height="22px" alt="mail"></img> */} Email
                 </Link>
           </span>

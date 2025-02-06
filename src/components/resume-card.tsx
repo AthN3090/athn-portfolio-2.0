@@ -17,7 +17,7 @@ interface ResumeCardProps {
   href?: string;
   badges?: readonly string[];
   period: string;
-  description?: readonly string[];
+  description?: string;
 }
 export const ResumeCard = ({
   logoUrl,
@@ -39,9 +39,10 @@ export const ResumeCard = ({
   };
 
   return (
-    <div
-      className=""
-      // onClick={handleClick}
+    <Link
+      href={href || "#"}
+      className="block cursor-pointer"
+      onClick={handleClick}
     >
       <Card className="flex">
         <div className="flex-none">
@@ -85,9 +86,6 @@ export const ResumeCard = ({
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
-          <ul className="mt-2 text-xs sm:text-sm list-disc">
-            {description?.map((item, index) => <li key={index}>{item}</li>)}
-          </ul>
           {description && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
@@ -107,6 +105,6 @@ export const ResumeCard = ({
           )}
         </div>
       </Card>
-    </div>
+    </Link>
   );
 };

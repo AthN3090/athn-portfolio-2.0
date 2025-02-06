@@ -83,8 +83,7 @@ export const DATA = {
       logoUrl: "/tcs.png",
       start: "Feb 2022",
       end: "Present",
-      description: [`Leveraged modern technologies including React.js, Redux, and Material UI to build dynamic and responsive user interfaces`,
-        `Collaborate with the development team to identify, troubleshoot and resolve bugs in an entity management application built using React.`, ` Developed and tested RESTful APIs using Express.js and Mongoose, ensuring efficient data exchange, smooth backend integration, and consistent functionality through regular testing with Postman.`, `Worked closely with UX designers to convert design mockups into fully functional and user-friendly interfaces.`, `Developed features including advanced search filters, user dashboards, authentication, data encryption, secure  payment systems, and interactive views to optimize user experience.`]
+      description:"Utilized React.js, Redux, and Material UI to build dynamic, responsive UIs. Collaborated with the team to troubleshoot and resolve bugs in an entity management app. Developed and tested RESTful APIs using Express.js and Mongoose, ensuring efficient data exchange. Worked with UX designers to implement user-friendly interfaces based on design mockups. Created advanced features like search filters, user dashboards, authentication, data encryption, and secure payment systems to enhance user experience."
 
     },
   ],
@@ -224,7 +223,7 @@ export const DATA = {
         " Collaborated with a product designer to create a visually compelling portfolio website to showcase their work.",
       technologies: [
         "React",
-        "Typescript",
+        "Javascript",
         "TailwindCSS",
         "Framer Motion"
       ],

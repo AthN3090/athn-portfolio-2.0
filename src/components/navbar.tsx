@@ -48,7 +48,7 @@ export default function Navbar() {
             </Tooltip>
           </DockIcon>
         ))} */}
-        <Link href={"/#home"} className="flex items-center">
+        <Link href={"/#hero"} className="flex items-center">
           <UsbIcon className="size-5" />
         </Link>
         <div className="flex items-center gap-2">
@@ -92,11 +92,13 @@ export default function Navbar() {
 
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
+                
                 <DropdownMenuItem asChild className="cursor-pointer">
                   <Link href="/#about">About</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer"><Link href="/#work">Work</Link></DropdownMenuItem>
-                <DropdownMenuItem asChild className="cursor-pointer"><Link href="/#work">Projects</Link></DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer"><Link href="/#projects">Projects</Link></DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer"><Link href="/#contact">Contact</Link></DropdownMenuItem>
                 <DropdownMenuItem asChild className="cursor-pointer">
                   <a href="/Aman_Dev_Chowdhary_Resume.pdf" target="_blank">
                     <Button className="text-sm">

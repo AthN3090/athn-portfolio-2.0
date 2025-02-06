@@ -17,9 +17,9 @@ export default function Page() {
   return (
   <>
   <Navbar />
-  <main className="flex flex-col min-h-[100dvh] space-y-10 py-5">
+  <main className="flex flex-col min-h-[100dvh] space-y-10">
         
-        <section id="hero">
+        <section id="hero" className="mt-5 scroll-mt-16">
           <div className="mx-auto w-full max-w-2xl space-y-8 mt-7">
             <div className="gap-2 flex justify-between">
               <div className="flex-col flex flex-1 space-y-1.5">
@@ -44,7 +44,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section id="about">
+        <section id="about" className="scroll-mt-16">
           <BlurFade delay={BLUR_FADE_DELAY * 3}>
             <h2 className="text-xl font-bold">About</h2>
           </BlurFade>
@@ -54,7 +54,7 @@ export default function Page() {
             </Markdown>
           </BlurFade>
         </section>
-        <section id="skills">
+        <section id="skills" className="scroll-mt-16">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 9}>
               <h2 className="text-xl font-bold">Skills</h2>
@@ -68,7 +68,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section id="work">
+        <section id="work" className="scroll-mt-16">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 5}>
               <h2 className="text-xl font-bold">Work Experience</h2>
@@ -93,7 +93,7 @@ export default function Page() {
             ))}
           </div>
         </section>
-        <section id="education">
+        <section id="education" className="scroll-mt-16">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 7}>
               <h2 className="text-xl font-bold">Education</h2>
@@ -117,7 +117,7 @@ export default function Page() {
           </div>
         </section>
         
-        <section id="projects">
+        <section id="projects" className="scroll-mt-16">
           <div className="space-y-12 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 11}>
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -201,7 +201,7 @@ export default function Page() {
             </BlurFade>
           </div>
         </section> */}
-        <section id="contact">
+        <section id="contact" className="scroll-mt-16">
           <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 16}>
               <div className="space-y-3">

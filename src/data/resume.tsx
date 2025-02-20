@@ -90,7 +90,7 @@ export const DATA = {
   education: [
     {
       school: "Indian Institute of Information Technology, Surat",
-      href: "https://buildspace.so",
+      href: "https://iiitsurat.ac.in/",
       degree: "Bachelor of Technology in Computer Science and Engineering",
       logoUrl: "/IIIT.jpg",
       start: "2017",
@@ -98,7 +98,7 @@ export const DATA = {
     },
     {
       school: "Kendriya Vidyalaya",
-      href: "https://uwaterloo.ca",
+      href: "https://no2hajirasurat.kvs.ac.in/",
       degree: "Primary and Secondary Education",
       logoUrl: "/kv.jpg",
       start: "2005",

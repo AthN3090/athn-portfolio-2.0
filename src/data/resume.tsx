@@ -267,6 +267,33 @@ export const DATA = {
         },
       ],
       image: "/productlanding.jpg",
+    },
+    {
+      title: "Portfolio Website",
+      href: "https://portfolio-athn.vercel.app/",
+      dates: "",
+      active: true,
+      description:
+        "My old portfolio website built using Nextjs and TailwindCSS",
+      technologies: [
+        "Nextjs",
+        "React",
+        "Javascript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://portfolio-athn.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/AthN3090/portfolio-athn",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/aman-portfolio.jpg",
     }
     
   ],

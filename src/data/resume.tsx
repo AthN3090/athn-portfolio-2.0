@@ -214,32 +214,6 @@ export const DATA = {
         },
       ],
       image: "/minesweeper.jpg",
-    },{
-      title: "Freelance Portfolio Project",
-      href: "https://twisha-patel-portfolio.vercel.app/",
-      dates: "",
-      active: true,
-      description:
-        " Collaborated with a product designer to create a visually compelling portfolio website to showcase their work.",
-      technologies: [
-        "React",
-        "Javascript",
-        "TailwindCSS",
-        "Framer Motion"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://twisha-patel-portfolio.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/AthN3090/Twisha-patel-portfolio",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/freelance.jpg",
     },
     {
       title: "Product Landing Page",
